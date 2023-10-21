@@ -3,9 +3,8 @@ require("dotenv").config({ path: ".env" });
 /** @type import('hardhat/config').HardhatUserConfig */
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
-
 module.exports = {
-  solidity: "0.8.9",
+  solidity: "0.8.20",
 
   networks: {
 
@@ -18,7 +17,7 @@ module.exports = {
 
   etherscan: {
     apiKey: {
-      "scroll-testnet": "YourKEY",
+      "scroll-testnet": "abc",
     },
 
     customChains: [
@@ -26,7 +25,7 @@ module.exports = {
         network: "scroll-testnet",
         chainId: 534351,
         urls: {
-          apiURL: "https://explorer.testnet.mantle.xyz/api",
+          apiURL: "https://sepolia-blockscout.scroll.io/api",
           browserURL: '',
         },
 
