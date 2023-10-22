@@ -18,6 +18,6 @@ npx hardhat verify --network scroll-testnet
 
 `#` Contract deployment address
 
-scroll testnet sepolia -   
+scroll testnet sepolia -  0xb32ccb53b631617de890b0a06db80a7ae470d9f5
 
 `#` Tweet Link

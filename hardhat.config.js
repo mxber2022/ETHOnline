@@ -17,7 +17,7 @@ module.exports = {
 
   etherscan: {
     apiKey: {
-      "scroll-testnet": "abc",
+      "scroll-testnet": "abcd",
     },
 
     customChains: [
